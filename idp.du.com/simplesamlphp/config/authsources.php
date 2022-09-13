@@ -23,9 +23,11 @@ $config = [
     // custom authenticatin module added newly....fabric module
     'myauthinstance' => [
         'fabricModule:fabricAuth',
-        'dsn' => 'mysql:host=localhost;port=3306;dbname=auth',
-        'username'=>'authuser',
-        'password'=>'MyNewPass5!',
+        // 'dsn' => 'mysql:host=localhost;port=3306;dbname=auth',
+        // 'username'=>'authuser',
+        // 'password'=>'MyNewPass5!',
+        'username'=>'',
+        'password'=>'',
         
         // 'username'=>'theconfiguserid',
         // 'password'=>'1234',
