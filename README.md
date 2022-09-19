@@ -318,3 +318,15 @@ Now that we have configured the authentication source, we can test it by accessi
 Then select the `Authentication`-tab, and choose `Test configured authentication sources`. You should then receive a list of authentication sources from `config/authsources.php` . Select `myauthinstance` , and log in using the username, and the password. You should then arrive on a page listing the attributes we return from the login function.
 
 Next, you should log out by following the log out link. 
+
+**Fake Api**: https://reqres.in/
+
+## Screenshots
+User's data in IDP's end.
+![Data in idp end](https://user-images.githubusercontent.com/43216053/191090197-efb00e11-cc5d-4aff-bef7-a5a2fe952f9d.png)
+
+User's data in SP's end
+![data in sp end](https://user-images.githubusercontent.com/43216053/191090236-4c3bb986-8564-4160-815f-28a8eaf65e6e.png)
+
+
+
