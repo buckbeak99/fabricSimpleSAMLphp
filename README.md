@@ -31,7 +31,7 @@ For our task, we'll make two SP and one IDP.
 Our primary concern will now only be IDP following the metadata exchange between sp and IDP.
 An instruction manual for building a unique username/password authentication source for SimpleSAMLphp is provided here.
 The task of authenticating the user falls on an authentication source, which normally does so by obtaining the user's login and password and checking it against a database.
-Here, we will test our custom module using the MySQL database so that we can determine its functionality.   
+Here, we will test our custom module using the MySQL database and also a fake api so that we can determine its functionality working on both procedure.   
 
 ### Create a custom module
  A module should contain all of the customized code for SimpleSAMLphp.
