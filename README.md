@@ -311,7 +311,7 @@ class fabricAuth extends \SimpleSAML\Module\core\Auth\UserPassBase {
 
 ?>
 ```
-
+You may have to change codebase or attributelist according to your need.
 ## Testing our authentication source
 Now that we have configured the authentication source, we can test it by accessing "authentication"-page of the SimpleSAMLphp web interface. By default, the web interface can be found on http://yourhostname.com/simplesaml/ . (Obviously, "yourhostname.com" should be replaced with your real hostname.)
 
